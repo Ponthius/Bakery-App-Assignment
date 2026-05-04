@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -24,6 +24,6 @@ public class Products extends AppCompatActivity {
     }
 
     public void closeApp(View view){
-        finish();
+        finishAffinity();
     }
 }
